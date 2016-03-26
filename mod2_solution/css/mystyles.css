@@ -1,0 +1,32 @@
+*{box-sizing: border-box;margin: 0px;padding: 0px}
+
+.container {width: 100%; margin-left: auto;margin-right: auto;}
+
+.container div{border: 1px solid black ; background-color: #4b717f;height: 100px; position: relative;margin: 10px;}
+
+@media (min-width: 992px){
+
+	.col_lx_4{width: 31%;float:left ; 
+	}
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	.col_mx_6{width: 47%;float:left ;}
+	.cover{float:left;width:96%;}
+
+}
+
+
+
+h1{text-align: center; margin-top: 40px;margin-bottom: 60px;  }
+
+
+
+.sectiontitle1{position: absolute;top:0px;right: 0; border: 1px solid black; background-color: #2585ae;}
+.sectiontitle2{position: absolute;top:0px;right: 0; border: 1px solid black; background-color: #edc613;}
+.sectiontitle3{position: absolute;top:0px;right: 0; border: 1px solid black; background-color: #f0f8ff;}
+
+p{clear:right;padding: 5px; margin-top: 15px}
